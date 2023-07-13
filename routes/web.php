@@ -9,6 +9,7 @@ Route::resource('courses', CourseController::class);
 Route::resource('courses.materials', MaterialController::class);
 Route::resource('materials', MaterialController::class);
 Route::match(['get', 'post'], '{course}/materials/create', [MaterialController::class, 'create'])->name('materials.create');
+Route::post('/courses/{course}/materials', [MaterialController::class, 'store'])->name('materials.store');
 Route::post('/courses', [CourseController::class, 'store'])->name('courses.store');
 Route::get('/courses', [CourseController::class, 'index'])->name('courses.index');
 Route::put('/courses/{course}', [CourseController::class, 'update'])->name('courses.update');

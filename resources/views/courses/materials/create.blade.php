@@ -24,8 +24,8 @@
         <textarea id="description" name="description" class="form-control"></textarea>
     </div>
     <div class="form-group">
-        <label for="embed_link">Link Embed Materi:</label>
-        <input type="text" id="embed_link" name="embed_link" class="form-control">
+        <label for="link_embed">Link Embed Materi:</label>
+        <input type="text" id="link_embed" name="link_embed" class="form-control">
     </div>
     <button type="submit" class="btn btn-primary">Simpan</button>
 </form>

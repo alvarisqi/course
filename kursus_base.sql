@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 13 Jul 2023 pada 02.04
+-- Waktu pembuatan: 13 Jul 2023 pada 02.53
 -- Versi server: 10.4.22-MariaDB
 -- Versi PHP: 8.1.2
 
@@ -41,7 +41,8 @@ CREATE TABLE `courses` (
 --
 
 INSERT INTO `courses` (`id`, `created_at`, `updated_at`, `title`, `description`, `duration`) VALUES
-(2, '2023-07-12 15:59:42', '2023-07-12 15:59:42', 'reter', 'erteryeuntyytjn', 345);
+(2, '2023-07-12 15:59:42', '2023-07-12 16:52:15', 'reter', 'erteryeuntyytjn', 34),
+(3, '2023-07-12 16:52:06', '2023-07-12 16:52:06', '21', 'wqeqfafef', 12);
 
 -- --------------------------------------------------------
 
@@ -204,7 +205,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT untuk tabel `courses`
 --
 ALTER TABLE `courses`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT untuk tabel `failed_jobs`
